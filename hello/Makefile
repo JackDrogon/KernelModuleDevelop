@@ -1,5 +1,5 @@
 KDIR  := /lib/modules/$(shell uname -r)/build
-obj-m := hello_printk.o
+obj-m := hello.o
 PWD := $(shell pwd)
 
 default:
